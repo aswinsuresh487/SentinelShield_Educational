@@ -1,0 +1,32 @@
+{"timestamp": "2025-12-30 00:05:58", "client_ip": "127.0.0.1", "method": "GET", "path": "/user.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:07:15", "client_ip": "127.0.0.1", "method": "GET", "path": "/user.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:07:15", "client_ip": "127.0.0.1", "method": "GET", "path": "/user.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:07:15", "client_ip": "127.0.0.1", "method": "GET", "path": "/user.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:07:15", "client_ip": "127.0.0.1", "method": "GET", "path": "/search.php", "is_malicious": true, "attack_type": "xss", "reason": "Xss detected"}
+{"timestamp": "2025-12-30 00:07:15", "client_ip": "127.0.0.1", "method": "GET", "path": "/page.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:07:15", "client_ip": "127.0.0.1", "method": "GET", "path": "/link.php", "is_malicious": true, "attack_type": "xss", "reason": "Xss detected"}
+{"timestamp": "2025-12-30 00:07:15", "client_ip": "127.0.0.1", "method": "GET", "path": "/file.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:07:15", "client_ip": "127.0.0.1", "method": "GET", "path": "/file.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:07:15", "client_ip": "127.0.0.1", "method": "GET", "path": "/ping.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:15:53", "client_ip": "127.0.0.1", "method": "GET", "path": "/search.php", "is_malicious": true, "attack_type": "xss", "reason": "Xss detected"}
+{"timestamp": "2025-12-30 00:40:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/user.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:40:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/user.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:40:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/user.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:40:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/search.php", "is_malicious": true, "attack_type": "xss", "reason": "Xss detected"}
+{"timestamp": "2025-12-30 00:40:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/page.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:40:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/link.php", "is_malicious": true, "attack_type": "xss", "reason": "Xss detected"}
+{"timestamp": "2025-12-30 00:40:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/file.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:40:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/file.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:40:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/ping.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:44:10", "client_ip": "127.0.0.1", "method": "GET", "path": "/search.php", "is_malicious": true, "attack_type": "xss", "reason": "Xss detected"}
+{"timestamp": "2025-12-30 00:46:10", "client_ip": "127.0.0.1", "method": "GET", "path": "/search.php", "is_malicious": true, "attack_type": "xss", "reason": "Xss detected"}
+{"timestamp": "2025-12-30 00:46:19", "client_ip": "127.0.0.1", "method": "GET", "path": "/search.php", "is_malicious": true, "attack_type": "xss", "reason": "Xss detected"}
+{"timestamp": "2025-12-30 00:46:25", "client_ip": "127.0.0.1", "method": "GET", "path": "/page.php", "is_malicious": true, "attack_type": "xss", "reason": "Xss detected"}
+{"timestamp": "2025-12-30 00:46:55", "client_ip": "127.0.0.1", "method": "GET", "path": "/file.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:47:02", "client_ip": "127.0.0.1", "method": "GET", "path": "/file.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:47:06", "client_ip": "127.0.0.1", "method": "GET", "path": "/file.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:47:12", "client_ip": "127.0.0.1", "method": "GET", "path": "/file.php", "is_malicious": true, "attack_type": "lfi", "reason": "Lfi detected"}
+{"timestamp": "2025-12-30 00:49:18", "client_ip": "127.0.0.1", "method": "GET", "path": "/user.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:49:28", "client_ip": "127.0.0.1", "method": "GET", "path": "/user.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:49:35", "client_ip": "127.0.0.1", "method": "GET", "path": "/page.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}
+{"timestamp": "2025-12-30 00:49:43", "client_ip": "127.0.0.1", "method": "GET", "path": "/page.php", "is_malicious": true, "attack_type": "sql_injection", "reason": "Sql Injection detected"}

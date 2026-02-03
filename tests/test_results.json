@@ -1,0 +1,90 @@
+{
+  "total": 12,
+  "passed": 9,
+  "failed": 3,
+  "blocked": 9,
+  "allowed": 1,
+  "timestamp": "2026-01-30 21:24:31",
+  "tests": [
+    {
+      "name": "SQLi: OR clause",
+      "endpoint": "/user.php?id=1' OR '1'='1",
+      "expected_blocked": true,
+      "was_blocked": true,
+      "passed": true,
+      "status_code": 403
+    },
+    {
+      "name": "SQLi: UNION",
+      "endpoint": "/user.php?id=1 UNION SELECT * FROM users",
+      "expected_blocked": true,
+      "was_blocked": true,
+      "passed": true,
+      "status_code": 403
+    },
+    {
+      "name": "SQLi: Comment",
+      "endpoint": "/user.php?id=1' --",
+      "expected_blocked": true,
+      "was_blocked": true,
+      "passed": true,
+      "status_code": 403
+    },
+    {
+      "name": "XSS: Script tag",
+      "endpoint": "/search.php?q=<script>alert('XSS')</script>",
+      "expected_blocked": true,
+      "was_blocked": true,
+      "passed": true,
+      "status_code": 403
+    },
+    {
+      "name": "XSS: Event handler",
+      "endpoint": "/page.php?name=<img src=x onerror=alert(1)>",
+      "expected_blocked": true,
+      "was_blocked": true,
+      "passed": true,
+      "status_code": 403
+    },
+    {
+      "name": "XSS: JavaScript protocol",
+      "endpoint": "/link.php?url=javascript:alert(1)",
+      "expected_blocked": true,
+      "was_blocked": true,
+      "passed": true,
+      "status_code": 403
+    },
+    {
+      "name": "LFI: Directory traversal",
+      "endpoint": "/file.php?page=../../../../etc/passwd",
+      "expected_blocked": true,
+      "was_blocked": true,
+      "passed": true,
+      "status_code": 403
+    },
+    {
+      "name": "LFI: PHP wrapper",
+      "endpoint": "/file.php?page=php://filter/resource=index",
+      "expected_blocked": true,
+      "was_blocked": true,
+      "passed": true,
+      "status_code": 403
+    },
+    {
+      "name": "CMDi: Semicolon",
+      "endpoint": "/ping.php?host=127.0.0.1; cat /etc/passwd",
+      "expected_blocked": true,
+      "was_blocked": true,
+      "passed": true,
+      "status_code": 403
+    },
+    {
+      "name": "CMDi: Pipe",
+      "endpoint": "/ping.php?host=127.0.0.1 | whoami",
+      "expected_blocked": true,
+      "was_blocked": false,
+      "passed": false,
+      "status_code": 404
+    }
+  ]
+}
